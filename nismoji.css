@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Chivo+Mono:wght@600&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:linear-gradient(to left,#00c9ff,#92fe9d);
+}
+nav{
+    width:100%;
+    background-color:white;
+    border-bottom:1px solid #1e81b0;
+    opacity:0.8;
+}
+nav h1{
+    margin:40px 0px 2px 20px;
+    font-size:40px;
+    font-weight:bold;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Chivo Mono', monospace;
+    display:inline-block;
+}
+.description {
+   margin:2px 0px 10px 20px;
+   font-family:serif;
+}
+.in{
+   border-radius:20px;
+   border:1px solid black;
+   text-align:center;
+   height:50px;
+   width:80%;
+   margin-top:20px;
+}
+.submit{
+    height:50px;
+    width:80%;
+    margin:5px 0px 5px 0px;
+    border:none;
+    border-radius:20px;
+    background-color:black;
+    color:white;
+    font-weight:bold;
+    
+}
+.parent{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   text-align:center;
+   margin-top:30px;
+}
+.child{
+    width:80%;
+    background:#1e81b0;
+    border-radius:20px;
+    display:none;
+}
+.emoji{
+    margin-top:20px;
+    font-size:80px;
+}
+.github{
+    float:right;
+    margin:20px 15px 0px 0px;
+}
